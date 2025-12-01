@@ -1,0 +1,35 @@
+.profile-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-form h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.profile-form input {
+  margin-bottom: 1rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.profile-form button {
+  padding: 0.8rem;
+  border: none;
+  background: #4CAF50;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-form button:hover {
+  background: #45a049;
+}
